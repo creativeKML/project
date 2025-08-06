@@ -390,7 +390,7 @@ corr_df = pd.DataFrame(correlation_results)
 print(tabulate(corr_df, headers='keys', tablefmt='psql'))
 
 # -----------------------------------------------------------------------------------------
-# [7] 
+# [7] 성별, 연령과 자동차등록대수 상관관계분석
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
